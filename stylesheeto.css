@@ -1,0 +1,26 @@
+
+body{text-align: center;}
+.fa-info-circle {
+  position: relative;
+  margin-left: 10px;
+}
+
+.fa-info-circle .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #191b1a;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.fa-info-circle:hover .tooltiptext {
+  visibility: visible;
+}
+ 
